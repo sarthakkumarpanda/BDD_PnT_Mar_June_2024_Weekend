@@ -24,8 +24,6 @@ public class MyHooks {
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(Util.SCRIPT_TIME));
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
-
-
     }
 
     @After

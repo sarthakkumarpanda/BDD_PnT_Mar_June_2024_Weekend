@@ -9,7 +9,7 @@ Feature: Login Functionality of TutorialsNinja
     And User clicks on Login button
     Then User is redirected to Account Page
     Examples:
-    |email										|password		|
+    |email										|password		 |
     |seleniumpanda1@gmail.com	|Selenium@123|
     |seleniumpanda2@gmail.com	|Selenium@123|
     |seleniumpanda3@gmail.com	|Selenium@123|
